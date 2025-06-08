@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:todolistdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update  # Cria/atualiza tabelas automaticamente (útil em dev)
+    show-sql: true       # Mostra SQL no console
+    properties:
+      hibernate:
+        format_sql: true # Formata SQL para melhor leitura
+
+  h2:
+    console:
+      enabled: true      # Ativa o console web do H2
+      path: /h2-console  # URL de acesso: http://localhost:8080/h2-console
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG           # Loga as queries SQL
+    org.hibernate.type.descriptor.sql: TRACE  # Mostra os valores dos parâmetros SQL
