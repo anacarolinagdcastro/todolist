@@ -70,10 +70,11 @@ A interface consome a API REST desenvolvida em Kotlin e deve ser totalmente resp
 ## Prints da Aplicação
 
 ### Print 1
-![Print 1](todolist/images/print1.jpeg)
+![Print 1](images/print1.jpeg)
 
 ### Print 2
-![Print 2](todolist/images/print2.jpeg)
+![Print 2](images/print2.jpeg)
+
 
 
 ---
