@@ -66,6 +66,15 @@ A interface consome a API REST desenvolvida em Kotlin e deve ser totalmente resp
   - **Método:** `test create task endpoint`  
   - **Descrição:** Valida o funcionamento do endpoint de criação de tarefa usando `MockMvc` para simular requisições HTTP.  
   - **Requisição:** POST para `/tasks` com JSON representando uma nova tarefa (`TaskRequestDTO`).
+ 
+## Prints da Aplicação
+
+### Print 1
+![Print 1](todolist/images/print1.jpeg)
+
+### Print 2
+![Print 2](todolist/images/print2.jpeg)
+
 
 ---
 
